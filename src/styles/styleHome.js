@@ -21,4 +21,32 @@ const Header = styled.div`
   }
 `;
 
-export { Header };
+const Menu = styled.div`
+  position: relative;
+`;
+
+const Footer = styled.div`
+  align-items: center;
+  background-color: #fff;
+  bottom: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  height: 92px;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  width: 100%;
+
+  & button {
+    background-color: #cbcbcb;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    height: 61px;
+    padding: 0 50px 0 50px;
+    width: 88vw;
+  }
+`;
+
+export { Header, Menu, Footer };
